@@ -1,4 +1,16 @@
 body{
     font-size: Arial 15px;
     font-family: Arial, Helvetica, sans-serif;
+    background: rgb(187, 187, 226);
+}
+h2.titulo{
+    text-align: center;
+}
+
+hr{
+    margin: auto;
+    margin: 0px 50px 0 50px;
+}
+img{
+    float: right;
 }
