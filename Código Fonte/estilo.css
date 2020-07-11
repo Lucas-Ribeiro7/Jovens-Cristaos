@@ -14,3 +14,21 @@ hr{
 img{
     float: right;
 }
+nav.menu ul{
+    list-style: none; /*Tirou o ponto do <li>*/
+    text-transform: uppercase; /*Deixou tudo em maiusculo*/
+    position: absolute; /*A posição dele pode ser fora do container <nav>, indo assim até a parte superior da página*/
+    top: -10px; /*É o espaçamento da parte superior com o menu*/
+    left: 350px; /*É a medida da largura, para centralizar o menu*/
+}
+
+nav.menu li{
+    display: inline-block; /*Deixa tudo em uma só linha*/
+    background-color: rgba(110, 68, 68, 0.336);
+    border-radius: 15px;
+    padding: 10px; /*Espaçamento*/
+    margin: 2px;
+}
+nav.menu{
+    display: block;  
+}
