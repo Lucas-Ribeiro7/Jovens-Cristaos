@@ -5,6 +5,10 @@ body{
 }
 h2.titulo{
     text-align: center;
+    font-weight: bold
+}
+p{
+    font-weight: 500;
 }
 
 hr{
