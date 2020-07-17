@@ -38,3 +38,17 @@ nav.menu li{
 nav.menu{
     display: block;  
 }
+div.louv-1{
+    float: left;
+}
+div.text{
+    float: right;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+p.italico{
+    font-style: italic;
+}
