@@ -2,6 +2,8 @@ body{
     font-size: Arial 15px;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(187, 187, 226);
+    width:900px; /*Centraliza a pagina toda para nõa usar 100% da tela*/
+    margin: auto;
 }
 h2.titulo{
     text-align: center;
@@ -56,4 +58,13 @@ button{
     width: 120px;
     padding: 5px; /*Espaçamento*/
     margin: 2px;
+}
+
+div.corpo{
+    border-top: 10px;
+    margin: auto;
+}
+
+fieldset.descricao{
+    margin: auto;
 }
