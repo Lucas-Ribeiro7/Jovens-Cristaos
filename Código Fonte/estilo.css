@@ -48,14 +48,7 @@ div.text{
 p.italico{
     font-style: italic;
 }
-div.menu{
-    text-align: center;
-    border-radius: 15px;
-    width: 700px;
-    margin: auto;
-    box-shadow: 3px 5px 12px black;
-    padding: 1px;
-}
+
 button{
     text-align: center;
     background-color: rgba(110, 68, 68, 0.336);
