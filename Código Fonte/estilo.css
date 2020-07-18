@@ -30,10 +30,6 @@ nav.menu ul{
 
 nav.menu li{
     display: inline-block; /*Deixa tudo em uma só linha*/
-    background-color: rgba(110, 68, 68, 0.336);
-    border-radius: 15px;
-    padding: 10px; /*Espaçamento*/
-    margin: 2px;
 }
 nav.menu{
     display: block;  
@@ -51,4 +47,20 @@ div.text{
 }
 p.italico{
     font-style: italic;
+}
+div.menu{
+    text-align: center;
+    border-radius: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 3px 5px 12px black;
+    padding: 1px;
+}
+button{
+    text-align: center;
+    background-color: rgba(110, 68, 68, 0.336);
+    border-bottom: 15px;
+    width: 120px;
+    padding: 5px; /*Espaçamento*/
+    margin: 2px;
 }
