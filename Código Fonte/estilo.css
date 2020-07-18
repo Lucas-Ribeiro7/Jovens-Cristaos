@@ -2,7 +2,7 @@ body{
     font-size: Arial 15px;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(187, 187, 226);
-    width:900px; /*Centraliza a pagina toda para nõa usar 100% da tela*/
+    width: 800px; /*Centraliza a pagina toda para nõa usar 100% da tela*/
     margin: auto;
 }
 h2.titulo{
@@ -41,9 +41,9 @@ div.louv-1{
 }
 div.text_louvo-1{
     float: right;
-    padding: 8px;
-    border-radius: 10px;
-    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 400px;
     margin: auto;
     box-shadow: 5px 5px 10px black;
 }
