@@ -68,3 +68,9 @@ div.corpo{
 fieldset.descricao{
     margin: auto;
 }
+div.reflexao-1{
+    float: left;
+}
+div.reflexao-2{
+    float: right;
+}
