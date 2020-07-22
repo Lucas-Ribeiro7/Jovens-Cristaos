@@ -1,8 +1,8 @@
 body{
     font-size: Arial 15px;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(219, 219, 223);
-    width: 900px; /*Centraliza a pagina toda para nõa usar 100% da tela*/
+    background: rgb(187, 187, 226);
+    width: 800px; /*Centraliza a pagina toda para nõa usar 100% da tela*/
     margin: auto;
 }
 h2.titulo{
@@ -24,15 +24,23 @@ nav.menu ul{
     list-style: none; /*Tirou o ponto do <li>*/
     text-transform: uppercase; /*Deixou tudo em maiusculo*/
     text-align: center;
-
-    /*position: relative; /*A posição dele pode ser fora do container <nav>, indo assim até a parte superior da página*/
-    /*top: -10px; /*É o espaçamento da parte superior com o menu*/
-    /*left: 350px; /*É a medida da largura, para centralizar o menu*/
 }
 
 nav.menu li{
     display: inline-block; /*Deixa tudo em uma só linha*/
+    padding: 5px;
 }
+
+nav.menu a{
+    text-decoration: none;
+    color: rgb(173, 166, 166);
+    font-style: normal;
+}
+
+nav.menu li a:hover{
+    color: rgb(46, 46, 44); /*Para quando o mause passar pelo o menu */
+}
+
 nav.menu{
     display: block;  
 }
@@ -49,15 +57,6 @@ div.text_louvo-1{
 }
 p.italico{
     font-style: italic;
-}
-
-button{
-    text-align: center;
-    background-color: rgba(110, 68, 68, 0.336);
-    border-bottom: 15px;
-    width: 120px;
-    padding: 5px; /*Espaçamento*/
-    margin: 2px;
 }
 
 div.corpo{
