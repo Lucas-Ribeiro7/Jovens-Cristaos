@@ -1,0 +1,11 @@
+div.louv-1{
+    float: left;
+}
+div.text_louvo-1{
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
