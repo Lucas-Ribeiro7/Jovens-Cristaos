@@ -1,11 +1,56 @@
-div.louv-1{
-    float: left;
+body{
+    font-size: Arial 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(243, 243, 247);
+    width: 1000px; /*Centraliza a pagina toda para nõa usar 100% da tela*/
+    margin: auto;
+}
+header.menu{
+    border-bottom: 20px;
+    background-color: rgb(112, 122, 122);
+    margin: auto;
+    padding: 5px;
+}
+nav.menu ul{
+    list-style: none; /*Tirou o ponto do <li>*/
+    text-transform: uppercase; /*Deixou tudo em maiusculo*/
+    text-align: center;
+}
+
+nav.menu li{
+    display: inline-block; /*Deixa tudo em uma só linha*/
+    padding: 5px;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: rgb(173, 166, 166);
+    font-style: normal;
+}
+
+nav.menu li a:hover{
+    color: rgb(46, 46, 44); /*Para quando o mause passar pelo o menu */
+}
+
+nav.menu{
+    display: block;  
+}
+div{
+    display: inline-block; /*Coloca todos que estão dentro de uma <div> ficar na mesma linha*/
+
+    /*Não é muito saudável usar o float*/
+}
+section{
+    border-radius: 20px;
+    background-color: rgb(97, 89, 89);
+    padding: 4px;
+    text-align: center;
 }
 div.text_louvo-1{
-    float: left;
-    padding: 20px;
+    padding: 10px;
+    background-color: rgb(82, 94, 128);
     border-radius: 5px;
-    width: 400px;
+    width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px black;
 }
