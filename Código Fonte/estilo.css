@@ -17,7 +17,7 @@ hr{
 img.principal{
     float: right;
 }
-div.menu{
+header.menu{
     border-bottom: 20px;
     background-color: rgb(112, 122, 122);
     margin: auto;

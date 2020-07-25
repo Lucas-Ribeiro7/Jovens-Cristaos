@@ -5,7 +5,7 @@ body{
     width: 1000px; /*Centraliza a pagina toda para nõa usar 100% da tela*/
     margin: auto;
 }
-div.menu{
+header.menu{
     border-bottom: 20px;
     background-color: rgb(112, 122, 122);
     margin: auto;
