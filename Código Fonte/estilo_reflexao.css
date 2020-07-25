@@ -27,11 +27,24 @@ nav.menu a{
     color: rgb(173, 166, 166);
     font-style: normal;
 }
-
 nav.menu li a:hover{
     color: rgb(46, 46, 44); /*Para quando o mause passar pelo o menu */
 }
 
 nav.menu{
     display: block;  
+}
+div{
+    display: inline-block; /*Coloca todos que estão dentro de uma <div> ficar na mesma linha*/
+
+    /*Não é muito saudável usar o float*/
+}
+section{
+    text-align: center;
+}
+div.reflexao-1{
+    padding: 10px;
+}
+div.reflexao-2{
+    padding: 10px;
 }

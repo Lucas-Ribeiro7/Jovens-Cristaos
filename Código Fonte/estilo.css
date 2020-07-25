@@ -51,19 +51,8 @@ p.italico{
     font-style: italic;
 }
 
-div.corpo{
-    border-top: 10px;
-    margin: auto;
-}
-
 fieldset.descricao{
     margin: auto;
-}
-div.reflexao-1{
-    float: left;
-}
-div.reflexao-2{
-    float: right;
 }
 div.ultimos{
     border-style: solid;
